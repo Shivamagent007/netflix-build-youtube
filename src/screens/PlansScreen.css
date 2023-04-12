@@ -18,3 +18,13 @@
 
 
 }
+@media (max-width: 600px) {
+    .plansScreen__plan {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plansScreen__plan > button {
+        margin-top: 20px;
+    }
+}

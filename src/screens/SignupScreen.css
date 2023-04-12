@@ -43,3 +43,31 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .signupScreen {
+        max-width: 100%;
+        padding: 50px;
+    }
+    
+    .signupScreen > form > input {
+        height: 30px;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+    }
+    
+    .signupScreen > form > button {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+        margin-top: 15px;
+    }
+    
+    .signupScreen > form > h1 {
+        font-size: 1.2rem;
+    }
+    
+    .signupScreen > form > h4 {
+        font-size: 0.9rem;
+    }
+}
